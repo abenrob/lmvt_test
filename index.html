@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Leaflet.MapboxVectorTile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="bower_components/dragdealer/src/dragdealer.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="map"></div>
+<div id="mapref">
+  <span class="zoomref"></span> &#x2756;
+  <span class="tileref"></span>
+</div>
+<div id="toggle">switch style</div>
+<div id="scrape-slider" class="dragdealer">
+  <div class="handle bar">lat <= <span class="value"></span>&deg;</div>
+</div>
+<div id="opacity-slider" class="dragdealer">
+  <div class="handle bar">opacity: <span class="value"></span>%</div>
+</div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/underscore/underscore-min.js"></script>
+<script src="lib/d3/d3-color.v1.min.js"></script>
+<script src="lib/d3/d3-interpolate.v1.min.js"></script>
+<script src="lib/d3/d3-scale-chromatic.v1.min.js"></script>
+<script src="bower_components/leaflet/dist/leaflet.js"></script>
+<script src="bower_components/Leaflet.MapboxVectorTile/dist/Leaflet.MapboxVectorTile.js"></script>
+<script src="bower_components/dragdealer/src/dragdealer.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

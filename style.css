@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.leaflet-control-zoom {
+  box-shadow: none;
+  border-radius: 0px;
+}
+.leaflet-control-zoom > a{
+  border-radius: 0px !important;
+}
+#mapref {
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, .3);
+}
+#toggle {
+  color: black;
+  font-size: 14px;
+  position: fixed;
+  left: 10px;
+  bottom: 90px;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+}
+#opacity-slider {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  width: 300px;
+  background: rgba(255,255,255,.3);
+}
+#scrape-slider {
+  position: fixed;
+  left: 10px;
+  bottom: 50px;
+  width: 300px;
+  background: rgba(255,255,255,.3);
+}
+.dragdealer .bar {
+  width: 100px;
+  height: 30px;
+  background: #FFF;
+  color: #000;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+}
